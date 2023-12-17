@@ -34,7 +34,8 @@ Simple Calulator with HTML, CSS, and java script
 
 ## Java script Functions
 - To press on the number and the number is shown on the screen
->
+```
 onclick="display.value +='7'"
+```
 as 'display' is name value od the screen input
 
