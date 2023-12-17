@@ -39,3 +39,17 @@ onclick="display.value +='7'"
 ```
 as 'display' is name value od the screen input
 
+- AC is a reset button, deletes the shown numbers
+  ```
+  onclick="display.value =' '"
+  ```
+
+- DE is a button to delete the last entered number
+  ```
+  onclick="display.value = display.value.toString().slice(0, -1)"
+  ```
+- To calculate the result:
+  ```
+onclick="display.value = eval(display.value)
+  ```
+    
